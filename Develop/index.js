@@ -16,3 +16,9 @@ function init() {}
 
 // function call to initialize program
 init();
+
+module.exports = {
+  questions: questions,
+  writeToFile: writeToFile,
+  init: init,
+};
