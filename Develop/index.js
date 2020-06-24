@@ -1,3 +1,5 @@
+var fs = require("fs");
+
 // array of questions for user
 const questions = [
   "What is the title of your project?",
@@ -9,7 +11,16 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+//   var fileName = data.title.toLowerCase().split(" ").join("") + ".md";
+
+  fs.writeFile(fileName, JSON.stringify(data, null, "\t"), function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Success!");
+  });
+}
 
 // function to initialize program
 function init() {}
