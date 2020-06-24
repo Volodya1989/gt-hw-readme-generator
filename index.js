@@ -1,6 +1,7 @@
 const readme = require("./Develop/index");
 var inquirer = require("inquirer");
 
+
 inquirer
   .prompt([
     {
@@ -34,13 +35,9 @@ inquirer
       name: "testInstructions",
     }
   ])
-  .then(function (response) {
-    console.log(response);
+  .then(function (data) {
+      console.log(data)
+      var fileName = data.title.toLowerCase().split(" ").join("") + ".md";
 
-    // if (response.confirm === response.password) {
-    //   console.log("Success!");
-    // }
-    // else {
-    //   console.log("You forgot your password already?!");
-    // }
+    readme.writeToFile(fileName, data)
   });
