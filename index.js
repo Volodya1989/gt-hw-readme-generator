@@ -2,7 +2,6 @@ const readme = require("./Develop/index");
 var generate = require("./Develop/utils/generateMarkdown");
 var inquirer = require("inquirer");
 
-
 inquirer
   .prompt([
     {
@@ -44,12 +43,11 @@ inquirer
       type: "input",
       message: readme.questions[7],
       name: "Email",
-    }
+    },
   ])
   .then(function (data) {
-      console.log(data)
-      var fileName = data.title.toLowerCase().split(" ").join("") + ".md";
-    readme.writeToFile(fileName, data)
+    console.log(data);
+    var fileName = data.title.toLowerCase().split(" ").join("") + ".md";
+    readme.writeToFile(fileName, data);
     // generate.generateMarkdown(data)
-
   });
