@@ -58,7 +58,7 @@ inquirer
   ])
   .then(function (data) {
     console.log(data);
-    // var fileName = "README_.md";
-    var fileName = data.title.toUpperCase().split(" ").join("") + ".md";
+    var fileName = "README_.md";
+    // var fileName = data.title.toUpperCase().split(" ").join("") + ".md";
     readme.writeToFile(fileName, data);
   });

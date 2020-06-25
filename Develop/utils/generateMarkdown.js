@@ -20,7 +20,6 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usageInformation}
   ## Credits
-  //here should go credits for the project
   ${data.credit}
   ## License
   ## Contributing
@@ -31,9 +30,9 @@ function generateMarkdown(data) {
   [Link to my GitHub Repository ]( https://github.com/${data.gitHub}) 
   
 
-  //here goes instructions on how to reach me with additional questions
+  If you have any question or suggestion, please you can reach by sending email on ${data.email}
 
-  ${data.email}
+  
 
 `;
 }

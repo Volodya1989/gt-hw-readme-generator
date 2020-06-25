@@ -1,8 +1,8 @@
-# readme generator
-  ![Contributor Covenant](https://img.shields.io/badge/license-GPL-brightgreen)
+# d
+  ![Contributor Covenant](https://img.shields.io/badge/license-ICS-brightgreen)
 
   ## Description 
-  s
+  
 
   ## Table of Contents (Optional)
   * [Installation](#installation)
@@ -14,22 +14,21 @@
   * [Questions](#questions)
 
   ## Installation
-  d
+  
   ## Usage 
-  f
+  
   ## Credits
-  //here should go credits for the project
   
   ## License
   ## Contributing
-  g
+  
   ## Tests
-  g
+  
   ## Questions
-  [Link to my GitHub Repository ]( https://github.com/Volodya1989) 
+  [Link to my GitHub Repository ]( https://github.com/) 
   
 
-  //here goes instructions on how to reach me with additional questions
+  If you have any questions please send me email on vpetr@gmail.com
 
-  vpetrytsia@gmail.com
+  
 
