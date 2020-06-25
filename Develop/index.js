@@ -13,6 +13,7 @@ const questions = [
   "What is your email address?",
   "To whom credit should be given for this project?",
   "What type of license do you want to choose?",
+  "What is the license description that you want to include?",
 ];
 
 // function to write README file
