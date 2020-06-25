@@ -1,7 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  //here goes should go badge according to the license chosen
   ![Contributor Covenant](https://img.shields.io/badge/license-${data.license}-brightgreen)
 
   ## Description 
@@ -28,7 +27,7 @@ function generateMarkdown(data) {
   ${data.contributionGuidelines}
   ## Tests
   ${data.testInstructions}
-  ##Questions
+  ## Questions
   [Link to my GitHub Repository ]( https://github.com/${data.gitHub}) 
   
 

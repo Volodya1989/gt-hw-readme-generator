@@ -1,9 +1,8 @@
-# d
-  //here goes should go badge according to the license chosen
-  ![Contributor Covenant](https://img.shields.io/badge/license-MIT-brightgreen)
+# readme generator
+  ![Contributor Covenant](https://img.shields.io/badge/license-GPL-brightgreen)
 
   ## Description 
-  d
+  s
 
   ## Table of Contents (Optional)
   * [Installation](#installation)
@@ -17,20 +16,20 @@
   ## Installation
   d
   ## Usage 
-  d
+  f
   ## Credits
   //here should go credits for the project
-  d
+  
   ## License
   ## Contributing
-  d
+  g
   ## Tests
-  d
-  ##Questions
-  [Link to my GitHub Repository ]( https://github.com/dd) 
+  g
+  ## Questions
+  [Link to my GitHub Repository ]( https://github.com/Volodya1989) 
   
 
   //here goes instructions on how to reach me with additional questions
 
-  d
+  vpetrytsia@gmail.com
 
