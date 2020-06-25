@@ -12,6 +12,8 @@ const questions = [
   "What is the test instructions of your project?",
   "What is your GitHub username?",
   "What is your email address?",
+  "To whom credit should be given for this project?",
+  "What type of license do you want to choose?",
 ];
 
 // function to write README file
