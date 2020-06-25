@@ -43,20 +43,22 @@ inquirer
       type: "email",
       message: readme.questions[7],
       name: "email",
-    },{
+    },
+    {
       type: "input",
       message: readme.questions[8],
       name: "credit",
-    },{
+    },
+    {
       type: "list",
       message: readme.questions[9],
       name: "license",
-      choices: ['MIT', 'ICS', 'GPL', 'BSD']
+      choices: ["MIT", "ICS", "GPL", "BSD"],
     },
   ])
   .then(function (data) {
     console.log(data);
-    var fileName = "README_.md";
+    // var fileName = "README_.md";
+    var fileName = data.title.toUpperCase().split(" ").join("") + ".md";
     readme.writeToFile(fileName, data);
-    // generate.generateMarkdown(data)
   });
