@@ -55,6 +55,11 @@ inquirer
       name: "license",
       choices: ["MIT", "ICS", "GPL", "BSD"],
     },
+    {
+      type: "input",
+      message: readme.questions[10],
+      name: "licenseDescription",
+    }
   ])
   .then(function (data) {
     console.log(data);

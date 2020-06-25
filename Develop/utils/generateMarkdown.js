@@ -22,17 +22,15 @@ function generateMarkdown(data) {
   ## Credits
   ${data.credit}
   ## License
+  ${data.licenseDescription}
   ## Contributing
   ${data.contributionGuidelines}
   ## Tests
   ${data.testInstructions}
   ## Questions
-  [Link to my GitHub Repository ]( https://github.com/${data.gitHub}) 
-  
+  [Link to my GitHub Repository ]( https://github.com/${data.gitHub})  
 
-  If you have any question or suggestion, please you can reach by sending email on ${data.email}
-
-  
+  If you have any question or suggestion, please you can reach by sending email to ${data.email}
 
 `;
 }
