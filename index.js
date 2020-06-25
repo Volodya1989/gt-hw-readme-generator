@@ -40,7 +40,7 @@ inquirer
       name: "GitHub",
     },
     {
-      type: "input",
+      type: "email",
       message: readme.questions[7],
       name: "Email",
     },
