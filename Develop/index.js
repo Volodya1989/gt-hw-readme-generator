@@ -1,4 +1,6 @@
 var fs = require("fs");
+var generate = require("./utils/generateMarkdown");
+
 
 // array of questions for user
 const questions = [
@@ -7,13 +9,15 @@ const questions = [
   "What are the installation instructions of your project?",
   "What is the usage information of your project?",
   "What is the contribution guidelines of your project?",
-  "What is the test instructionsof your project?",
+  "What is the test instructions of your project?",
+  "What is your GitHub username?",
+  "What is your email address?",
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-//   var fileName = data.title.toLowerCase().split(" ").join("") + ".md";
-
+    
+// generate.generateMarkdown(data)
   fs.writeFile(fileName, JSON.stringify(data, null, "\t"), function (err) {
     if (err) {
       return console.log(err);
