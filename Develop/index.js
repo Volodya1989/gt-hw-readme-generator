@@ -1,6 +1,5 @@
 var fs = require("fs");
-var generate = require("./utils/generateMarkdown");
-
+var generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -18,14 +17,19 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    
-// generate.generateMarkdown(data)
-  fs.writeFile(fileName, JSON.stringify(data, null, "\t"), function (err) {
+  // generate.generateMarkdown(data)
+  fs.writeFile(fileName, generateMarkdown(data), function (err) {
     if (err) {
       return console.log(err);
     }
     console.log("Success!");
   });
+  /*fs.appendFile(fileName, generate.generateMarkdown(data), function (err) {
+    if (err) {
+      return console.log(err);
+    }
+    console.log("Success!");
+  });*/
 }
 
 // function to initialize program
