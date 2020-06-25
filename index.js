@@ -5,14 +5,6 @@ var inquirer = require("inquirer");
 inquirer
   .prompt([
     {
-      //here should go list of license for user to choose from
-      // inquirer-search-list
-      type: "list",
-      message: readme.questions[9],
-      name: "license",
-      choices: ['MIT', 'ICS']
-    },
-    {
       type: "input",
       message: readme.questions[0],
       name: "title",
@@ -55,6 +47,11 @@ inquirer
       type: "input",
       message: readme.questions[8],
       name: "credit",
+    },{
+      type: "list",
+      message: readme.questions[9],
+      name: "license",
+      choices: ['MIT', 'ICS', 'GPL', 'BSD']
     },
   ])
   .then(function (data) {
