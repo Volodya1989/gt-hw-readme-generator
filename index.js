@@ -37,12 +37,22 @@ inquirer
     {
       type: "input",
       message: readme.questions[6],
-      name: "GitHub",
+      name: "gitHub",
     },
     {
       type: "email",
       message: readme.questions[7],
-      name: "Email",
+      name: "email",
+    },{
+      type: "input",
+      message: readme.questions[8],
+      name: "credit",
+    },
+    {
+      //here should go list of license for user to choose from
+      type: "input",
+      message: readme.questions[9],
+      name: "license",
     },
   ])
   .then(function (data) {

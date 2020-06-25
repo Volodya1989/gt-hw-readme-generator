@@ -20,7 +20,8 @@ function generateMarkdown(data) {
   ## Usage 
   ${data.usageInformation}
   ## Credits
-  ${data.title}
+  //here should go credits for the project
+  ${data.credit}
   ## License
   ${data.title}
   // here goes list of options for a license for users application 
@@ -30,7 +31,7 @@ function generateMarkdown(data) {
   ${data.testInstructions}
   ##Questions
   https://github.com/${data.GitHub}
-  
+
   //here goes instructions on how to reach me with additional questions
 
   ${data.Email}
