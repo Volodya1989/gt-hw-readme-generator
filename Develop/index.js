@@ -17,19 +17,12 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  // generate.generateMarkdown(data)
   fs.writeFile(fileName, generateMarkdown(data), function (err) {
     if (err) {
       return console.log(err);
     }
     console.log("Success!");
   });
-  /*fs.appendFile(fileName, generate.generateMarkdown(data), function (err) {
-    if (err) {
-      return console.log(err);
-    }
-    console.log("Success!");
-  });*/
 }
 
 // function to initialize program
