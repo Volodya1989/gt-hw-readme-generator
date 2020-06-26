@@ -5,7 +5,6 @@
 ![badmath](https://img.shields.io/badge/license-MIT-brightgreen)
 
 
-
 ## Table of Contents
 
 * [Installation](#installation)
@@ -27,9 +26,7 @@ The following video demonstrates the application functionality:
 
 <!-- ![README Generator video](./SampleReadme/videoRecording.mov) -->
 
-[README Generator video](https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing)
-
-
+[Link to the README Generator demo video](https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing)
 
 
 ## Credits
