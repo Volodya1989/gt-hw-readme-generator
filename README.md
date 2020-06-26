@@ -16,7 +16,7 @@
 ## Installation
 
 1. Clone the repo.
-2. Run the node index.html command in your terminal/bash.
+2. Run the node index.js command in your terminal/bash.
 
 ## Usage
 
