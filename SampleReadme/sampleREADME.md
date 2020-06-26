@@ -28,5 +28,5 @@
   ## Questions
   [Link to my GitHub Repository ]( https://github.com/Volodya1989)  
 
-  If you have any question or suggestion, please you can reach me by sending email to vpetrtysia@gmail.com
+  If you have any question or suggestion, please you can reach me by sending email to vpetrytsia@gmail.com
 
