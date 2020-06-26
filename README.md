@@ -26,7 +26,7 @@ The following video demonstrates the application functionality:
 
 <!-- ![README Generator video](./SampleReadme/videoRecording.mov) -->
 
-[Link to the README Generator demo video](https://drive.google.com/file/d/1nNY1L_1YPu55TZVDpms6y19kEtuHHPk7/view?usp=sharing)
+[Link to the demo video of the README Generator Application](https://drive.google.com/file/d/1nNY1L_1YPu55TZVDpms6y19kEtuHHPk7/view?usp=sharing)
 
 
 ## Credits
