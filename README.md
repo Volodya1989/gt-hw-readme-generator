@@ -16,7 +16,8 @@
 ## Installation
 
 1. Clone the repo.
-2. Run the node index.js command in your terminal/bash.
+2. Run npm install command in your terminal/bash.
+3.  Then run  node index.js command in your terminal/bash.
 
 ## Usage
 
