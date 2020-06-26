@@ -1,10 +1,10 @@
-# sample1
-  ![Contributor Covenant](https://img.shields.io/badge/license-ICS-brightgreen)
+# Title
+  ![Contributor Covenant](https://img.shields.io/badge/license-GPL-brightgreen)
 
   ## Description 
-  sample2
+  description
 
-  ## Table of Contents (Optional)
+  ## Table of Contents 
   * [Installation](#installation)
   * [Usage](#usage)
   * [Credits](#credits)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  sample3
+  npm i
   ## Usage 
-  sample4
+  usage info
   ## Credits
-  sample5
+  Volodymyr
   ## License
-  sample10
+  license
   ## Contributing
-  Vol
+  guidlines
   ## Tests
-  sample6
+  npm test
   ## Questions
   [Link to my GitHub Repository ]( https://github.com/Volodya1989)  
 
-  If you have any question or suggestion, please you can reach by sending email to vpetrytsia@gmail.com
+  If you have any question or suggestion, please you can reach me by sending email to vpetrtysia@gmail.com
 
