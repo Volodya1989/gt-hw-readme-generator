@@ -1,114 +1,72 @@
 # gt-hw-readme-generator
 
-# Unit 09 Node.js and ES6+ Homework: Good README Generator
+![badmath](https://img.shields.io/badge/README-generator-yellow)
 
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
-
-Your task is to create a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md) as a reminder of everything that a quality, professional README contains. The application will be invoked with the following command:
-
-```
-node index.js
-```
-
-Because this is a command-line application that won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates the functionality of your application. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer.
-
-## User Story
-
-```
-AS A developer
-I WANT a README generator
-SO THAT can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-```
-
-## Minimum Application Requirements
-
-* Meets [Submission Requirements](#submission-requirements) in the following section.
-
-* Functional application.
-
-* GitHub repository with a unique name and a README describing project.
-
-* The generated README includes the following sections: 
-
-  * Title
-  * Description
-  * Table of Contents
-  * Installation
-  * Usage
-  * License
-  * Contributing
-  * Tests
-  * Questions
-
-* The generated README includes 1 badge that's specific to the repository.
+![badmath](https://img.shields.io/badge/license-MIT-brightgreen)
 
 
-## Submission Requirements
 
-Because this is a CLI App, there will be no need to deploy it to Heroku. This time, though, you need to include a video showing us that you got the app working with no bugs. You should include a link to the video in your application's `README.md` file.
+## Table of Contents
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/`.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [URL](#url)
+* [License](#mit_license)
 
-* `node_modules` is not tracked and uploaded to GitHub. (Hint: It is easy if you create your `.gitignore` file before installing dependencies with npm.)
+## Installation
 
-* Repo **MUST** include `package.json` with required dependencies. (Hint: Run `npm init` when you first setup the project before installing any dependencies.)
+1. Clone the repo.
+2. Run the node index.html command in your terminal/bash.
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+## Usage
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers/other developers in the future what you built and why, and to show how it works.
+This Readme Generator was created as command line application for those who want  quickly create a professional README for a new project.
 
-* Because screenshots (and well-written READMEs) are extremely important in the context of GitHub, this will be part of the grading.
+The following video demonstrates the application functionality:
 
-## Commit Early and Often
+![README Generator video](./SampleReadme/videoRecording.mov)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+![Another README Generator video](https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing)
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
-* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
 
-Follow these guidelines for committing:
+## Credits
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+This was a solo project comlepeted by Volodymyr Petrytsya as homework for the Georgia Tech, FullStack Flex program.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+## URL
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+There is no link to deployed website since it is command line application. 
 
-* Test your application before you commit to ensure functionality at every step in the development process.
 
-We would like you to have more than 200 commits by graduation, so commit early and often!
+## MIT_License 
 
-## Submission on BCS
+Copyright (c) [2020] [Volodymyr Petrytsya]
 
-You are required to submit the following:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* A walkthrough video demonstrating the functionality of the application. 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* A sample README.md file for a project repository generated using your application.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-[object Object]
+ <!-- ## Contributing
+
+If you would like to contribute to this project, please follow the [Contributor Covenant](https://www.contributor-covenant.org/) guidelines.  -->
+
+
+
+
