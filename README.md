@@ -25,9 +25,9 @@ This Readme Generator was created as command line application for those who want
 
 The following video demonstrates the application functionality:
 
-![README Generator video](./SampleReadme/videoRecording.mov)
+<!-- ![README Generator video](./SampleReadme/videoRecording.mov) -->
 
-![Another README Generator video]<iframe src="https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing" width="340" height="280"></iframe>
+[README Generator video](https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing)
 
 
 
