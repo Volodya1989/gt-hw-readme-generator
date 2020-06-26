@@ -27,7 +27,7 @@ The following video demonstrates the application functionality:
 
 ![README Generator video](./SampleReadme/videoRecording.mov)
 
-![Another README Generator video](https://drive.google.com/file/d/16o4TDQsBE-TI5YjqAsryfyr5SG3O8A4p/view)
+![Another README Generator video]<iframe src="https://drive.google.com/file/d/1tcyMeISFdWeo9pbywTFUQgPRu6QfMOsq/view?usp=sharing" width="340" height="280"></iframe>
 
 
 
